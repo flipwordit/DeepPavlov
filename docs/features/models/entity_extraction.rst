@@ -103,5 +103,5 @@ Entity Linking model can be used from Python using the following code:
 
     from deeppavlov import configs, build_model
 
-    entity_extraction = build_model(configs.kbqa.entity_extraction_en, download=True)
+    entity_extraction = build_model(configs.entity_extraction.entity_extraction_en, download=True)
     entity_extraction(['Forrest Gump is a comedy-drama film directed by Robert Zemeckis and written by Eric Roth.'])
